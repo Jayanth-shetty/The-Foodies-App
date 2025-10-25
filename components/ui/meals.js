@@ -1,5 +1,4 @@
 import sql from 'better-sqlite3';
-import { resolve } from 'styled-jsx/css';
 const db=sql('meals.db');
 
 export default async function getMeals(){
@@ -7,4 +6,8 @@ export default async function getMeals(){
     // throw new Error('loading meals failed')
     return db.prepare('SELECT * FROM meals').all();
 
+}
+
+export function getMeal(slug){
+    return db.prepare("SELECT * FROM meals WHERE slug= ?").get(slug);   
 }
