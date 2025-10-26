@@ -1,6 +1,6 @@
 import Image from "next/image";
 import classes from "./page.module.css";
-import { getMeal } from "@/components/ui/meals";
+import { getMeal } from "@/lib/meals";
 import { notFound } from "next/navigation";
 
 export default function MealDetailsPage({params}) {
