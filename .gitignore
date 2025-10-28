@@ -38,3 +38,8 @@ next-env.d.ts
 #database
 meals.db
 
+#env
+.env
+.env.local
+
+
