@@ -19,7 +19,7 @@ It merges the simplicity of a user-friendly interface with the robustness of ful
 - **📱 Responsive UI** — Clean layouts with headers, recipe listings, pop-ups, and forms for adding or editing recipes.  
 - **🌐 Full-Stack Integration** — Connects front-end and back-end seamlessly, enabling users to view, add, edit, or delete recipes.  
 - **🚀 Next.js Framework** — Server-side rendering (SSR), dynamic routing, and API routes for full-stack functionality.  
-- **🖼️ Images & Metadata Management** — Upload recipe images to **AWS S3**, with dynamic page metadata for SEO and social sharing.  
+- **🖼️ Images & Metadata Management** — Upload recipe images to **cloudinary**, with dynamic page metadata for SEO and social sharing.  
 - **📋 Server Actions & Form Handling** — Uses `useFormSubmit` for managing form submissions with **server-side input validation** and error handling.  
 - **🔧 Error Handling & Not Found States** — Custom `not-found.js` pages for invalid URLs, with granular messaging for missing recipes.  
 - **🎯 User Experience Focus** — Provides clear guidance when users encounter errors or invalid content, ensuring seamless navigation.
